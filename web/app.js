@@ -343,7 +343,7 @@ function onAllScratched() {
         playSound(won >= 10000 ? 'big' : 'small', won >= 10000 ? 1.0 : 0.9);
     } else {
         document.getElementById('result-icon').textContent = '😔';
-        document.getElementById('result-msg').textContent  = 'No win this time!';
+        document.getElementById('result-msg').textContent  = 'Unlucky, better luck next time!';
     }
 }
 
